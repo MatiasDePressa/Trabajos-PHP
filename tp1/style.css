@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(226, 81, 81);
+}
+.padre{
+    height: 400px;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.hijo{
+    height: 232px;
+    width: 300px;
+    background-color: rgb(232, 235, 55);
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+legend{
+    font-size: 30px;
+    margin-top: 20px;
+}

@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>tp5</title>
+        <style>
+            body{
+                background-color: rgb(255, 195, 156);
+            }
+            legend{
+                font-size: 30px;
+                font-weight: 500;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .padre{
+                height: 400px;
+                width: 100%;
+                margin-top: 10%;
+                display: flex;
+                justify-content: center;
+            }
+            .hijo{
+                height: 350px;
+                width: 500px;
+                background-color: cornflowerblue;
+                position: absolute;
+                text-align: center;
+                border-radius: 20px;
+                padding-top: 15px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <form  method="post" action="http://localhost\tarea\tp5\tp5.php">
+        <div class="padre">
+            <div class="hijo">
+                <legend>Simulador de alquiler</legend>
+                <h1></h1>
+                <br>
+                <label>Nombre del cliente</label>
+                <input type="text" name="nombre">
+                <h1></h1>
+                <label>Tipo de transaccion</label>
+                <br>
+                <label>venta</label>
+                <input type="radio" name="trans" value="venta">
+                <label>alquiler</label>
+                <input type="radio" name="trans" value="alquiler">
+                <h1></h1>
+                <label>Tipo de propiedad</label>
+                <select name="propiedad">
+                    <option value="casa">Casa</option>
+                    <option value="departamento">Departamento</option>
+                    <option value="duplex">Duplex</option>
+                </select>
+                <h1></h1>
+                <label>Cantidad de habitaciones</label>
+                <input type="number" name="habitaciones">
+                <h1></h1>
+                <label>Sueldo actual</label>
+                <input type="number" name="sueldo">
+                <h1></h1>
+                <input type="submit" value="Calcular">
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

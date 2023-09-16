@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="a.css">
+            <title>TP2</title>
+        </head>
+        <body>
+            <div class="padre">
+                <div class="hijo">
+                    <form method="post" action="http://localhost/tarea/tp2/a.php">
+                        <label>Nombre Empleado</label>
+                        <br></br>
+                        <input type="text" name="nombre">
+                        <h2></h2>
+                        <label>Edad</label>
+                        <br></br>
+                        <input type="text" name="edad">
+                        <h4>Genero</h4>
+                        <label>F</label><input type="radio" name="gen" value="F">
+                        <label>M</label><input type="radio" name="gen" value="M">
+                        <h2></h2>
+                        <label>Cargo</label>
+                        <br></br>
+                        <select name="carg">
+                            <option value="op">Operario</option>
+                            <option value="cad">Cadete</option>
+                            <option value="ger">Gerente</option>
+                            <option value="boss">Jefe</option>
+                        </select>
+                        <H2></H2>
+                        <label>Tiene acceso exclusivo?</label><input type="checkbox" name="acceso">
+                        <h2></h2>
+                        <input type="submit" value="Agregar Empleado" id="botoncalculo">
+                    </form>
+                </div>
+            </div>
+        </body>
+    </html>
+

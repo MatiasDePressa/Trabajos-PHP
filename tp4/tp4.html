@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>tp4</title>
+        <link rel="stylesheet" href="tp4.css">
+    </head>
+    <body>
+        <form method="post" action="http://localhost/tarea/tp4/tp4.php">
+            <div class="padre">
+                <div class="hijo">
+                        <legend>Simulador de Equipaje</legend>
+                        <h1></h1>
+                        <label>Nombre De Cliente</label>
+                        <input type="text" name="nombre">
+                        <h1></h1>
+                        <label>Origen</label>
+                        <input type="text" name="origen">
+                        <h1></h1>
+                        <label>Destino</label>
+                        <input type="text" name="destino">
+                        <h1></h1>
+                        <label>Tipo de viaje</label>
+                        <select name="tipo">
+                            <option value="li">Light</option>
+                            <option value="pl">Plus</option>
+                            <option  value="pr">Premier</option>
+                        </select>
+                        <h1></h1>
+                        <label>Elija la cantidad de kg de equipaje</label>
+                        <h3></h3>
+                        <input type="submit" name="50kg" value="50kg de equipaje extra">
+                        <input type="submit" name="20kg" value="20kg de equipaje extra">
+                        <input type="submit" name="0kg" value="sin exceso de equipaje">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(81, 185, 226);
+}
+.padre{
+    height: 400px;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.hijo{
+    height: 470px;
+    width: 400px;
+    background-color: rgb(73, 230, 73);
+    position: absolute;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+legend{
+    font-size: 30px;
+    margin-top: 20px;
+}
+label{
+    font-size: 20px;
+}
+#boton{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: rgb(107, 214, 0);
+    font-size: 20px;
+}
+#desc{
+    height: 100px;
+    width: 260px;
+}
